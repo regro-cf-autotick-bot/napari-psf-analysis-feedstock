@@ -20,12 +20,15 @@ requirements:
     - python >=3.7
     - setuptools-scm
   run:
+    - magicgui
     - matplotlib-base
     - matplotlib-scalebar
     - napari
     - numpy
     - pandas
     - python >=3.7
+    - pyyaml
+    - qtpy
     - scikit-image
 
 test:
