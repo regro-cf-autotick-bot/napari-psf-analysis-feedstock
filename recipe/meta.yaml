@@ -1,5 +1,5 @@
 {% set name = "napari-psf-analysis" %}
-{% set version = "0.1.2" %}
+{% set version = "0.2.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari_psf_analysis-{{ version }}.tar.gz
-  sha256: 86759136929c82b4d70b4b193e70b22ea9bfe6044044d6fe7edab9a7067bf105
+  sha256: 29a4ec38fede435050961d5b9361dd7f1dc282fe8010dfdaaebac543a5e62fcd
 
 build:
   noarch: python
